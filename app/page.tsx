@@ -197,7 +197,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20 lg:mt-40">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 lg:gap-32 3xl:gap-50">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-16 lg:gap-32 3xl:gap-50">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
