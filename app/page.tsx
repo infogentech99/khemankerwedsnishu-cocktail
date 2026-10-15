@@ -42,19 +42,19 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-    {
-      title_ceremony: "Mata Ki Chowki",
-      image: "/assets/mata.webp",
-      venue_address: <>Tuesday, December 8th 2026 <br />16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Singh Avenue, Jalandhar <br /> 7:00 pm Onwards<br/> Followed by Priti bhoj- 8:00 pm Onwards</>,   
-      link: "https://maps.app.goo.gl/gg24u1CNiqb4Y6Ng6",
-    },
-
     // {
-    //   title_ceremony: "Cocktail Party",
-    //   image: "/assets/cocktail.webp",
-    //   venue_address: <>Thursday, December 10th 2026 <br /> Hotel Regent Park <br/> Mahavir Marg Jalandar <br /> 8:00 pm Onwards</>,
-    //   link: "https://maps.app.goo.gl/fjxuRGFQRRJTL6mU7",
+    //   title_ceremony: "Mata Ki Chowki",
+    //   image: "/assets/mata.webp",
+    //   venue_address: <>Tuesday, December 8th 2026 <br />16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Singh Avenue, Jalandhar <br /> 7:00 pm Onwards<br/> Followed by Priti bhoj- 8:00 pm Onwards</>,   
+    //   link: "https://maps.app.goo.gl/gg24u1CNiqb4Y6Ng6",
     // },
+
+    {
+      title_ceremony: "Cocktail Party",
+      image: "/assets/cocktail.webp",
+      venue_address: <>Thursday, December 10th 2026 <br /> Hotel Regent Park <br/> Mahavir Marg Jalandar <br /> 8:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/fjxuRGFQRRJTL6mU7",
+    },
 
 
     // {
